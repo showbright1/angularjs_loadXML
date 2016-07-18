@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+    <menu name="intro">
+        <page name="introduction" />
+        <page name="objective" />
+        <page name="how to navigate" />
+    </menu>
+    
+    <menu name="pages">
+        <page name="page 1" />
+        <page name="page 2" />
+        <page name="page 3" />
+        <page name="page 4" />
+    </menu>
+
+</root>

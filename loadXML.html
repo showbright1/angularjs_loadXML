@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Angular XML</title>
+<script src="angular.min.js"></script>
+<script src="xml2json.min.js"></script>
+<script src="xml.js"></script>
+</head>
+<body ng-app="xmlApp" ng-controller="myXMLCtrl">
+	
+    <div ng-repeat="menu in menus">
+        Menu: {{menu._name}}
+        
+        <div ng-repeat="page in menu.page">
+            page: {{page._name}}
+        </div>
+    </div>
+	
+</body>
+</html>
