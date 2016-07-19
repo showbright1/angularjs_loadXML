@@ -1,0 +1,1 @@
+This is a simple example of how to load xml in angular js App and parse the xml through xml to json converter.
